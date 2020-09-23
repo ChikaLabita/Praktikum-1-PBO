@@ -1,2 +1,2 @@
 #markdown
-<img src="./Kelompok_Kampus.jpeg" />
+<img src="./Kelompok_Kampus.jpg" />
