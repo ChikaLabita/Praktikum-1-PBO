@@ -1,0 +1,18 @@
+Percobaan 1
+1. memperbaiki program dengan menambahkan extends ClassA pada ClassB
+2. Penyebab dari error tersebut adalah variabel x dan y tidak ditemukan pada ClassB karena ClassA belum di extends pada ClassB sehingga tidak dapat diakses pada Class Main Percobaan1.
+
+Percobaan 2
+1. memperbaiki program dengan menambahkan extends ClassA pada ClassB, kemudian pada ClassA merubah tipe atribut menjadi public karena jika private maka meskipun diextends atribut tersebut tidak dapat diakses oleh Class lain.
+2. Penyebab dari error tersebut adalah ClassA belum diextends pada ClassB, selain itu pada Atribut di ClassA bertipe private sehingga ClassB tidak dapat mengakses ClassA meskipun ClassA telah diextends pada ClassB.
+
+Percobaan 3
+1. Fungsi super pada super.phi dan super.r adalah untuk mengakses atribut dari superclass.
+2. Berfungsi untuk menampilkan isi atribut dari superclass dan juga dari variabel t.
+3. Karena class Bangun merupakan subclass dari class Tabung, sehingga atribut pada class Bangun dapat diakses pada class Tabung tanpa perlu mendefinisikan lagi atribut tersebut pada class Tabung.
+
+Percobaan 4
+1. ClassA merupakan subclass dari ClassB dan juga ClassC, ClassB merupakan subclass dari Class C , kemudian ClassC merupakan superclass
+2. Tidak terdapat perbedaan.
+3. ClassA merupakan subclass dari ClassB, kemudian ClassB merupakan subclass dari ClassC sehingga ClassC dapat mengakses isi dari ClassB dan otomatis ClassA juga menjadi subclass dari ClassC.
+4. super() berfungsi mengeksekusi konstruktor induk
