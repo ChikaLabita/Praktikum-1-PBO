@@ -2,7 +2,7 @@
 
 <br>
 <h3>Praktikum</h3>
-<br>
+
 Percobaan 1
 <br> Source Code :
       
@@ -113,17 +113,14 @@ Percobaan 1
    <br>  Jawab :
    <br> 2. Kata kunci apakah yang digunakan untuk menurunkan suatu class ke class yang lain?
    <br>  Jawab :
-   <br> 3. Perhatikan kode program pada class Manager, atribut apa saja yang dimiliki oleh class
-tersebut? Sebutkan atribut mana saja yang diwarisi dari class Karyawan!
+   <br> 3. Perhatikan kode program pada class Manager, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Karyawan!
    <br> Jawab :
-   <br> 4. Jelaskan kata kunci super pada potongan program dibawah ini yang terdapat pada class
-Manager! System.out.println("Total Gaji = " + (super.gaji+tunjangan));
+   <br> 4. Jelaskan kata kunci super pada potongan program dibawah ini yang terdapat pada class Manager! System.out.println("Total Gaji = " + (super.gaji+tunjangan));
    <br> Jawab :
-   <br> 5. Program pada percobaan 1 diatas termasuk dalam jenis inheritance apa? Jelaskan
-alasannya!
+   <br> 5. Program pada percobaan 1 diatas termasuk dalam jenis inheritance apa? Jelaskan alasannya!
    <br> Jawab :
 <br>
-<br>
+
 Percobaan 2
 <br> Source Code :
 <br>
