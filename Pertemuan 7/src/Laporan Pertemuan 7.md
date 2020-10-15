@@ -30,29 +30,20 @@ Percobaan 1
         }
 <br>
         
-        package pertemuan7;
-        public class Karyawan {
-        public String nama, alamat, jk;
-        public int umur, gaji;
+    package pertemuan7;
+    public class Manager extends Karyawan {
+    public int tunjangan;
 
-        public Karyawan(){
+    public Manager(){
 
-        }
-        public Karyawan(String nama, String alamat, String jk, int umur, int gaji){
-            this.nama = nama;
-            this.alamat = alamat;
-            this.jk = jk;
-            this.umur = umur;
-            this.gaji = gaji;
-        }
-        public void tampilDataKaryawan(){
-            System.out.println("Nama                   = " + nama);
-            System.out.println("Alamat                 = " + alamat);
-            System.out.println("Jenis Kelamin          = " + jk);
-            System.out.println("Umur                   = " + umur);
-            System.out.println("Gaji                   = " + gaji);
-        }
-        }
+    }
+    public void tampilDataManager(){
+        super.tampilDataKaryawan();
+        System.out.println("Tunjangan              = " + tunjangan);
+        System.out.println("Total Gaji             = " + (super.gaji + tunjangan));
+    }
+    }
+
         
  <br>
  
@@ -109,15 +100,15 @@ Percobaan 1
    Pertanyaan :
    <br>
    1. Sebutkan class mana yang termasuk super class dan sub class dari percobaan 1 diatas!
-   <br>  Jawab :
+   <br>  Jawab : class Karyawan merupakan super class, class Manager dan class Staff merupakan subclass
    <br> 2. Kata kunci apakah yang digunakan untuk menurunkan suatu class ke class yang lain?
-   <br>  Jawab :
+   <br>  Jawab : Kata kunci atau keyword yang digunakan adalah <b>extends</b>
    <br> 3. Perhatikan kode program pada class Manager, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Karyawan!
-   <br> Jawab :
+   <br> Jawab : Atribut yang dimiliki oleh class Manager adalah int tunjangan. atribut yang diwarisi dari class Karyawan adalah seluruh atribut.
    <br> 4. Jelaskan kata kunci super pada potongan program dibawah ini yang terdapat pada class Manager! System.out.println("Total Gaji = " + (super.gaji+tunjangan));
-   <br> Jawab :
+   <br> Jawab : super.gaji digunakan untuk merepresentasikan objek dari superclass.
    <br> 5. Program pada percobaan 1 diatas termasuk dalam jenis inheritance apa? Jelaskan alasannya!
-   <br> Jawab :
+   <br> Jawab : Termasuk dalam jenis Hierarchical Inheritance
    <br>
 <br>
 
@@ -186,23 +177,16 @@ Percobaan 2
  Output :
  <img src="./Percobaan2.jpg"/>
  <br>Pertanyaan :
- <br>1. Berdasarkan class diatas manakah yang termasuk single inheritance
-dan mana yang termasuk multilevel inheritance?
-<br> Jawab :
-<br>2. Perhatikan kode program class StaffTetap dan StaffHarian, atribut apa saja yang
-dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class
-Staff!
-<br> Jawab :
+ <br>1. Berdasarkan class diatas manakah yang termasuk single inheritance dan mana yang termasuk multilevel inheritance?
+<br> Jawab : class manager merupakan class single inheritance dan class staff merupakan class multilevel inheritance.
+<br>2. Perhatikan kode program class StaffTetap dan StaffHarian, atribut apa saja yang dimiliki oleh class tersebut? Sebutkan atribut mana saja yang diwarisi dari class Staff!
+<br> Jawab : Atribut yang dimiliki oleh class StaffTetap adalah String golongan dan int asuransi. Kemudian untuk atribut pada class StaffHarian adalah int jmlJamKerja. atribut yang diwarisi dari class Staff adalah nama, alamat, jk, umur, gaji, lembur, potongan
 <br>3. Apakah fungsi potongan program berikut pada class StaffHarian super(nama,alamat,jk,umur,gaji,lembur,potongan); ?
-<br> Jawab : 
+<br> Jawab : digunakan untuk memanggil method pada superclass
 <br>4. Apakah fungsi potongan program berikut pada class StaffHarian super.tampilDataStaff(); ?
-<br> Jawab : 
-<br>5. Perhatikan kode program dibawah ini yang terdapat pada class StaffTetap System.out.println("Gaji Bersih =  " + (gaji + lembur - potongan - asuransi));
-Terlihat dipotongan program diatas atribut gaji, lembur dan potongan dapat diakses
-langsung. Kenapa hal ini bisa terjadi dan bagaimana class StaffTetap memiliki atribut gaji,
-lembur, dan potongan padahal dalam class tersebut tidak dideklarasikan atribut gaji, lembur,
-dan potongan?
-<br> Jawab :
+<br> Jawab : untuk mengambil nilai variabel yang ada pada superclass
+<br>5. Perhatikan kode program dibawah ini yang terdapat pada class StaffTetap System.out.println("Gaji Bersih =  " + (gaji + lembur - potongan - asuransi)); Terlihat dipotongan program diatas atribut gaji, lembur dan potongan dapat diakses langsung. Kenapa hal ini bisa terjadi dan bagaimana class StaffTetap memiliki atribut gaji, lembur, dan potongan padahal dalam class tersebut tidak dideklarasikan atribut gaji, lembur, dan potongan?
+<br> Jawab : Karena class StaffTetap merupakan subclass dari class Staff
 <br>
 
 <h3> Tugas Praktikum </h3>
@@ -343,3 +327,5 @@ Source Code :
 Output :
 <img src="./tugas_pertemuan7.jpg"/>
 <img src="./tugas_pertemuan7(1).jpg"/>
+
+Alhamdulillah
