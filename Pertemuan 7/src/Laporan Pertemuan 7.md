@@ -206,7 +206,6 @@ dan potongan?
 <br>
 
 <h3> Tugas Praktikum </h3>
-<br>
 Buatlah sebuah program dengan konsep pewarisan seperti pada class diagram berikut ini : Komputer, Leptop, Pc, Mac, dan Windows.
 Kemudian buatlah instansiasi objek untuk menampilkan data pada class Mac, Windows dan
 Pc!.
