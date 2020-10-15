@@ -1,6 +1,5 @@
 <h1>Laporan Pertemuan 7 - Inheritance(2)</h1>
 
-<br>
 <h3>Praktikum</h3>
 
 Percobaan 1
