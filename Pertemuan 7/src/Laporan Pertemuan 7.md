@@ -1,6 +1,8 @@
 <h1>Laporan Pertemuan 7 - Inheritance(2)</h1>
 
 <br>
+<h3>Praktikum</h3>
+<br>
 Percobaan 1
 <br> Source Code :
       
@@ -101,7 +103,7 @@ Percobaan 1
         S.tampilDataStaff();
     }
     }
-   <br>
+<br>
    Output :
    <img src="./Percobaan1.jpg"/>
    <br>
@@ -124,6 +126,8 @@ alasannya!
 <br>
 Percobaan 2
 <br> Source Code :
+<br>
+
     package pertemuan7;
     public class StaffTetap extends Staff{
     public String golongan;
@@ -147,7 +151,9 @@ Percobaan 2
         System.out.println("Gaji Bersih              =  " + (gaji + lembur - potongan - asuransi));
     }
     }
+    
 <br>
+
     package pertemuan7;
     public class StaffHarian extends Staff{
     public int jmljamKerja;
@@ -168,6 +174,7 @@ Percobaan 2
     }
     }
 <br>
+
     package pertemuan7;
     public class Inheritance1 {
     public static void main(String[] args) {
@@ -200,7 +207,7 @@ lembur, dan potongan padahal dalam class tersebut tidak dideklarasikan atribut g
 dan potongan?
 <br> Jawab :
 <br>
-<h2> Tugas Praktikum </h2>
+<h3> Tugas Praktikum </h3>
 <br>
 Buatlah sebuah program dengan konsep pewarisan seperti pada class diagram berikut ini : Komputer, Leptop, Pc, Mac, dan Windows.
 Kemudian buatlah instansiasi objek untuk menampilkan data pada class Mac, Windows dan
@@ -208,6 +215,7 @@ Pc!.
 <br>
 Source Code :
 <br>
+    
     package TugasPertemuan7;
     public class Komputer {
     public String merk, jnsProsesor;
@@ -230,7 +238,7 @@ Source Code :
     }
     }
     
-    <br>
+<br>
     
     package TugasPertemuan7;
     public class Leptop extends Komputer{
@@ -250,7 +258,7 @@ Source Code :
     }
     }
     
-    <br>
+<br>
     
     package TugasPertemuan7;
     public class Pc extends Komputer {
@@ -271,7 +279,7 @@ Source Code :
     }
     }
     
-    <br>
+<br>
     
     package TugasPertemuan7;
     public class Mac extends Leptop {
@@ -292,7 +300,7 @@ Source Code :
     }
     }
     
-    <br>
+<br>
     
     package TugasPertemuan7;
     public class Windows extends Leptop {
@@ -313,7 +321,7 @@ Source Code :
     }
     }
     
-    <br>
+<br>
     
         package TugasPertemuan7;
         public class Main {
