@@ -118,8 +118,8 @@ Percobaan 1
    <br> Jawab :
    <br> 5. Program pada percobaan 1 diatas termasuk dalam jenis inheritance apa? Jelaskan alasannya!
    <br> Jawab :
+   <br>
 <br>
-
 Percobaan 2
 <br> Source Code :
 <br>
