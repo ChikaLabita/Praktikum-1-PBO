@@ -9,7 +9,7 @@ Setelah perbaikan :
 <br>
 Source Code : <br>
 
-package com.uts;
+    package com.uts;
 
     public class SepedaMotor extends Mesin{
     private Mesin mesin ;
@@ -81,7 +81,7 @@ package com.uts;
     }
  <br>
  
- package com.uts;
+    package com.uts;
 
     public class Main {
 
