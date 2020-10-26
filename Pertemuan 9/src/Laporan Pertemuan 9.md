@@ -98,7 +98,7 @@
         System.out.println();
     }
     }
-<br>
+
 
     package com.percobaan1;
 
@@ -153,7 +153,6 @@
         return super.getGaji() + tunjangan;
     }
     }
-<br>
 
     package com.percobaan1;
 
@@ -246,12 +245,13 @@
         objek.perkalian(34, 23, 56);
     }
     }
-    <br>
+    
     1. Dari source coding diatas terletak dimanakah overloading?<br>
 	     terletak pada method perkalian dimana terdapat 2 method dengan 	nama yang sama, tetapi memiliki parameter berbeda.<br>
     2. Jika terdapat overloading ada berapa jumlah parameter yang berbeda?<br>
 	     terdapat 1 parameter yang berbeda. yaitu dengan menambahkan int c
-    <br>   
+   
+   
     package com.latihan;
 
     public class PerkalianKu {
@@ -269,12 +269,13 @@
         objek.perkalian(34.56,23.7);
     }
     }
-    <br>
+    
     3. Dari source coding diatas terletak dimanakah overloading?<br>
 	     terletak pada method perkalian dimana terdapat 2 method dengan nama yang sama, tetapi memiliki parameter berbeda.<br>
     4. Jika terdapat overloading ada berapa tipe parameter yang berbeda?<br>
 	     terdapat 2 parameter yang berbeda. yaitu double a, double b
     <br>
+    
     package com.latihan;
 
     public class Ikan {
@@ -305,6 +306,7 @@
 	     Pada source coding diatas dapat saya jabarkan bahwa method swim() pada class Ikan dapat diakses oleh subclass dengan
        mengubah inputan ataupun tanpa mengubah inputan dalam method swim().
     <br>
+    
 <h3>Tugas</h3>
 <br>
 1. Overloading <br>
@@ -343,10 +345,13 @@
 
     	}
     	}
+	
     <br>
     Output :
+    <br>
     <img src="./tugas9-1.jpg"/>
     <br>
+    
 2. Overriding<br>
 
     	package com.Tugas;
@@ -406,8 +411,9 @@
         System.out.println("_____________________________");
     	}
     	}
-    <br>
+    
     Output :
+    <br>
     <img src="./tugas9-2.jpg"/>
     <br>
 
