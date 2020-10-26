@@ -2,6 +2,7 @@
 <br>
 <h3> Percobaan 1</h3>
 <br>
+
     package com.percobaan1;
 
     public class Karyawan {
@@ -55,6 +56,7 @@
     }
     }
 <br>
+
     package com.percobaan1;
 
     public class Staff extends Karyawan{
@@ -97,6 +99,7 @@
     }
     }
 <br>
+
     package com.percobaan1;
 
     public class Manager extends Karyawan {
@@ -151,9 +154,10 @@
     }
     }
 <br>
+
     package com.percobaan1;
 
-public class Utama {
+    public class Utama {
 
     public static void main(String[] args) {
 	// write your code here
@@ -224,6 +228,7 @@ public class Utama {
  <br>
  <h3>Latihan</h3>
  <br>
+    
     package com.latihan;
 
     public class PerkalianKu {
@@ -304,32 +309,32 @@ public class Utama {
 <br>
 1. Overloading <br>
 
-    package com.Tugas;
     
-    public class Segitiga {
-    private int sudut;
+    	package com.Tugas;
+    
+    	public class Segitiga {
+    	private int sudut;
 
-    public int totalSudut(int sudutA){
+    	public int totalSudut(int sudutA){
         return sudut = 180 - sudutA;
-    }
-    public int totalSudut(int sudutA, int sudutB){
+    	}
+    	public int totalSudut(int sudutA, int sudutB){
         return sudut = 180 - (sudutA + sudutB);
-    }
-    public int keliling(int sisiA, int sisiB, int sisiC){
+    	}
+    	public int keliling(int sisiA, int sisiB, int sisiC){
         int keliling = sisiA + sisiB + sisiC;
         return keliling;
-    }
-    public double keliling(int sisiA, int sisiB){
+    	}
+    	public double keliling(int sisiA, int sisiB){
         double c = Math.sqrt(Math.pow(sisiA, 2) + Math.pow(sisiB, 2));
         return c;
-    }
+    	}
+	}
+   
+   	package com.Tugas;
 
-    }
-    
-    package com.Tugas;
-
-    public class MainOverloading {
-    public static void main(String[] args) {
+    	public class MainOverloading {
+    	public static void main(String[] args) {
         Segitiga segitiga = new Segitiga();
 
         System.out.println(segitiga.totalSudut(10));
@@ -337,54 +342,55 @@ public class Utama {
         System.out.println( segitiga.keliling(12,27));
         System.out.println( segitiga.keliling(12,25,27));
 
-    }
-    }
+    	}
+    	}
     <br>
     Output :
-    <img src="./tugas9-1.jpg/>
+   	<img src="./tugas9-1.jpg"/>
     <br>
 2. Overriding<br>
-    package com.Tugas;
 
-    public class Manusia {
-    public void bernafas(){
+    	package com.Tugas;
+
+    	public class Manusia {
+    	public void bernafas(){
         System.out.println("Manusia dapat bernafas");
-    }
-    public void makan(){
+    	}
+    	public void makan(){
         System.out.println("Manusia juga dapat makan");
-    }
-    }
+    	}
+    	}
     
-    package com.Tugas;
+    	package com.Tugas;
 
-    public class Dosen extends Manusia{
+    	public class Dosen extends Manusia{
 
-    public void bernafas() {
+    	public void bernafas() {
         System.out.println("Dosen dapat bernafas");
-    }
+    	}
 
-    public void makan() {
+    	public void makan() {
         System.out.println("Dosen juga dapat makan");
-    }
-    }
+    	}
+    	}
     
-    package com.Tugas;
+    	package com.Tugas;
 
-    public class Mahasiswa extends Manusia{
+    	public class Mahasiswa extends Manusia{
 
-    public void bernafas() {
+    	public void bernafas() {
         System.out.println("Mahasiswa dapat bernafas");
-    }
+    	}
 
-    public void makan() {
+    	public void makan() {
         System.out.println("Mahasiswa juga dapat makan");
-    }
-    }
+    	}
+    	}
     
-    package com.Tugas;
+    	package com.Tugas;
 
-    public class MainOverriding {
-    public static void main(String[] args) {
+    	public class MainOverriding {
+    	public static void main(String[] args) {
         Manusia a = new Manusia();
         Manusia b = new Dosen();
         Manusia c = new Mahasiswa();
@@ -399,11 +405,11 @@ public class Utama {
         c.bernafas();
         c.makan();
         System.out.println("_____________________________");
-    }
-    }
+    	}
+    	}
     <br>
     Output :
-    <img src="./tugas9-2.jpg/>
+    <img src="./tugas9-2.jpg"/>
     <br>
 
 
