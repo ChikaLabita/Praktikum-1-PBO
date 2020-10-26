@@ -246,10 +246,10 @@
     }
     }
     
-    1. Dari source coding diatas terletak dimanakah overloading?<br>
-	     terletak pada method perkalian dimana terdapat 2 method dengan 	nama yang sama, tetapi memiliki parameter berbeda.<br>
-    2. Jika terdapat overloading ada berapa jumlah parameter yang berbeda?<br>
-	     terdapat 1 parameter yang berbeda. yaitu dengan menambahkan int c
+    1. Dari source coding diatas terletak dimanakah overloading?
+       terletak pada method perkalian dimana terdapat 2 method dengan 	nama yang sama, tetapi memiliki parameter berbeda.
+    2. Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
+       terdapat 1 parameter yang berbeda. yaitu dengan menambahkan int c
    
    
     package com.latihan;
@@ -270,11 +270,11 @@
     }
     }
     
-    3. Dari source coding diatas terletak dimanakah overloading?<br>
-	     terletak pada method perkalian dimana terdapat 2 method dengan nama yang sama, tetapi memiliki parameter berbeda.<br>
-    4. Jika terdapat overloading ada berapa tipe parameter yang berbeda?<br>
-	     terdapat 2 parameter yang berbeda. yaitu double a, double b
-    <br>
+    3. Dari source coding diatas terletak dimanakah overloading?
+       terletak pada method perkalian dimana terdapat 2 method dengan nama yang sama, tetapi memiliki parameter berbeda.
+    4. Jika terdapat overloading ada berapa tipe parameter yang berbeda?
+       terdapat 2 parameter yang berbeda. yaitu double a, double b
+    
     
     package com.latihan;
 
@@ -299,13 +299,13 @@
         a.swim();
         b.swim();
     }
-    <br>
-    5. Dari source coding diatas terletak dimanakah overriding?<br>
-	     Overriding terletak pada method swim(). dimana method swim() 	digunakan lagi pada subclass dengan mengubah inputan.<br>
-    6. Jabarkanlah apabila sourcoding diatas jika terdapat overriding?<br>
-	     Pada source coding diatas dapat saya jabarkan bahwa method swim() pada class Ikan dapat diakses oleh subclass dengan
+    
+    5. Dari source coding diatas terletak dimanakah overriding?
+       Overriding terletak pada method swim(). dimana method swim() digunakan lagi pada subclass dengan mengubah inputan.<br>
+    6. Jabarkanlah apabila sourcoding diatas jika terdapat overriding?
+       Pada source coding diatas dapat saya jabarkan bahwa method swim() pada class Ikan dapat diakses oleh subclass dengan
        mengubah inputan ataupun tanpa mengubah inputan dalam method swim().
-    <br>
+    
     
 <h3>Tugas</h3>
 <br>
@@ -415,6 +415,3 @@ Output :
     <br>
     <img src="./tugas9-2.jpg"/>
     <br>
-
-
-    
