@@ -328,8 +328,7 @@
     	public double keliling(int sisiA, int sisiB){
         double c = Math.sqrt(Math.pow(sisiA, 2) + Math.pow(sisiB, 2));
         return c;
-    	}
-	}
+    	} }
    
    	package com.Tugas;
 
@@ -346,7 +345,7 @@
     	}
     <br>
     Output :
-   	<img src="./tugas9-1.jpg"/>
+    <img src="./tugas9-1.jpg"/>
     <br>
 2. Overriding<br>
 
