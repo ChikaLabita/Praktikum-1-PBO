@@ -346,11 +346,10 @@
     	}
     	}
 	
-    <br>
-    Output :
-    <br>
-    <img src="./tugas9-1.jpg"/>
-    <br>
+Output :
+<br>
+<img src="./tugas9-1.jpg"/>
+<br>
     
 2. Overriding<br>
 
