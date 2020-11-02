@@ -84,7 +84,7 @@ Praktikum
         budi.ajakPeliharaanJalanJalan();
     }
     }
- <img src="./Praktikum10.jpg"/>
+ <img src ="./Praktikum10.jpg"/>
 <br>
 
 1.5 Pertanyaan Diskusi :
