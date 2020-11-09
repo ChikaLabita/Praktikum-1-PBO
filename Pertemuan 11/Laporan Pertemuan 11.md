@@ -323,16 +323,6 @@ Output :
     }
     }
 
- Output : 
+ Output :<br>
  <img src="./3.jpg"/> <br>
  <img src="./UMLTugas.jpg"/>
-
-    
-
-        
-
-
-
-    
-
-
