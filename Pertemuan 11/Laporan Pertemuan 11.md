@@ -130,7 +130,7 @@
 6. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi class Program menjadi seperti berikut ini:<br>
    Jawab : tambahkan system.out.println() pada class Sarjana dan juga class PascaSarjana pada method lulus()<br>
     Output : 
-    <src="./Percobaan1.jpg"/>
+    <img src="./Percobaan1.jpg"/>
     
  <h4>Percobaan 2</h4>
  
@@ -160,7 +160,7 @@
 3. Tambahkan System.out.println("Saya telah menjuarai kompetisi NASIONAL") pada class Sarjana method override menjuaraiKompetisi() 
    dan tambahkan juga System.out.println("Saya Menerbitkan artikel di jurnal NASIONAL") pada class Sarjana method override membuatPublikasiIlmiah()<br>
 Output : 
-<src="./Percobaan2.jpg"/>
+<img src="./Percobaan2.jpg"/>
 
 <h3>Tugas Praktikum</h3>
 
@@ -324,8 +324,8 @@ Output :
     }
 
     Output : 
-    <src="./3.jpg"/>
-    <src="./UMLTugas.jpg"/>
+    <img src="./3.jpg"/>
+    <img src="./UMLTugas.jpg"/>
 
     
 
