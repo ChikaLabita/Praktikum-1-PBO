@@ -117,20 +117,20 @@
         }
         
 <h4>Pertanyaan : </h4>
-1. Pada langkah ke 9, pada baris program ke 3 terdapat warning pada script tersebut. Jelaskan penyebab terjadinya hal tersebut ?
-   Jawab : Karena class interface ICumlaude berada dalam satu package yang sama
-2. Pada langkah ke 9, pada baris program ke 3. Apa yang terjadi jika script tersebut dihilangkan? Jelaskan menurut pemahaman anda.
-   Jawab : Menurut saya, meskipun script tersebut dihilangkan, program akan tetap berjalan. Karena, terletak pada package yang sama.
-3. Mengapa pada langkah nomor 9 terjadi error? Jelaskan!
-   Jawab : Karena pada class mahasiswa belum diberikan implements ICumlaude
-4. Dapatkah method kuliahDiKampus() dipanggil dari objek sarjanaCumlaude di class Program? Mengapa demikian?
-   Jawab : Tidak. karena kuliahDikampus() bukan termasuk kedalam bagian implementasi. dimana method kuliahDikampus termasuk kedalam class Mahasiswa.
-5. Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method beriSertifikatCumlaude() pada class Rektor? Mengapa demikian?
-   Jawab : Tidak. Karena type parameter ICumlaude Rektor bukan Mahasiswa.
-6. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi class Program menjadi seperti berikut ini:
-   Jawab : tambahkan system.out.println() pada class Sarjana dan juga class PascaSarjana pada method lulus()
+1. Pada langkah ke 9, pada baris program ke 3 terdapat warning pada script tersebut. Jelaskan penyebab terjadinya hal tersebut ?<br>
+   Jawab : Karena class interface ICumlaude berada dalam satu package yang sama<br>
+2. Pada langkah ke 9, pada baris program ke 3. Apa yang terjadi jika script tersebut dihilangkan? Jelaskan menurut pemahaman anda.<br>
+   Jawab : Menurut saya, meskipun script tersebut dihilangkan, program akan tetap berjalan. Karena, terletak pada package yang sama.<br>
+3. Mengapa pada langkah nomor 9 terjadi error? Jelaskan!<br>
+   Jawab : Karena pada class mahasiswa belum diberikan implements ICumlaude<br>
+4. Dapatkah method kuliahDiKampus() dipanggil dari objek sarjanaCumlaude di class Program? Mengapa demikian?<br>
+   Jawab : Tidak. karena kuliahDikampus() bukan termasuk kedalam bagian implementasi. dimana method kuliahDikampus termasuk kedalam class Mahasiswa.<br>
+5. Dapatkah method kuliahDiKampus() dipanggil dari parameter mahasiswa di method beriSertifikatCumlaude() pada class Rektor? Mengapa demikian?<br>
+   Jawab : Tidak. Karena type parameter ICumlaude Rektor bukan Mahasiswa.<br>
+6. Modifikasilah method beriSertifikatCumlaude() pada class Rektor agar hasil eksekusi class Program menjadi seperti berikut ini:<br>
+   Jawab : tambahkan system.out.println() pada class Sarjana dan juga class PascaSarjana pada method lulus()<br>
     Output : 
-    <img src="./Percobaan1.jpg"/>
+    <src="./Percobaan1.jpg"/>
     
  <h4>Percobaan 2</h4>
  
@@ -155,12 +155,12 @@
     }
     }
 <h4>Pertanyaan : </h4> 
-1. Abstract tidak dapat bertipe protected dan juga private.
-2. Karena IBerprestasi merupakan abstract dan tidak dapat diintansiasi. kecuali di @override.
+1. Abstract tidak dapat bertipe protected dan juga private.<br>
+2. Karena IBerprestasi merupakan abstract dan tidak dapat diintansiasi. kecuali di @override.<br>
 3. Tambahkan System.out.println("Saya telah menjuarai kompetisi NASIONAL") pada class Sarjana method override menjuaraiKompetisi() 
-   dan tambahkan juga System.out.println("Saya Menerbitkan artikel di jurnal NASIONAL") pada class Sarjana method override membuatPublikasiIlmiah()
+   dan tambahkan juga System.out.println("Saya Menerbitkan artikel di jurnal NASIONAL") pada class Sarjana method override membuatPublikasiIlmiah()<br>
 Output : 
-<img src="./Percobaan2.jpg"/>
+<src="./Percobaan2.jpg"/>
 
 <h3>Tugas Praktikum</h3>
 
@@ -324,7 +324,8 @@ Output :
     }
 
     Output : 
-    <img src="./3.jpg"/>
+    <src="./3.jpg"/>
+    <src="./UMLTugas.jpg"/>
 
     
 
