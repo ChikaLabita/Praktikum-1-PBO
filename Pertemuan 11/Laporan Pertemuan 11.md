@@ -323,9 +323,9 @@ Output :
     }
     }
 
-    Output : 
-     <img src="./3.jpg"/> <br>
-     <img src="./UMLTugas.jpg"/>
+ Output : 
+ <img src="./3.jpg"/> <br>
+ <img src="./UMLTugas.jpg"/>
 
     
 
