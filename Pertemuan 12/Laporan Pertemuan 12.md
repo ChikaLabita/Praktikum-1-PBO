@@ -193,7 +193,8 @@ Class <b>Tester1</b>
         System.out.println("" + pEmp.getEmployeeInfo());
     }
     }
-    <img src=".Tester2.jpg"/>
+    
+<img src=".Tester2.jpg"/>
     
 <b>5.2. Pertanyaan</b>
 1. Perhatikan class Tester2 di atas, mengapa pemanggilan e.getEmployeeInfo() pada baris 8 dan pEmp.getEmployeeInfo() pada baris 10 menghasilkan hasil sama?<br>
